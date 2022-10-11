@@ -15,3 +15,6 @@ def single_letter_count(word, letter):
         if char.lower() == letter.lower():
             count += 1
     return count
+
+    # lower_case_word = word.lower()
+    # return lower_case_word.count(letter)

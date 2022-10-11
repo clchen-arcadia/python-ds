@@ -13,3 +13,5 @@ def frequency(lst, search_term):
             count += 1
     return count
     # .count() on lists as also with strings!
+
+    return lst.count(search_term)
